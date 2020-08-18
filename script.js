@@ -7,7 +7,7 @@ const COMMANDS = {
       "searching his way and I love learning things which may or may not " +
       "be useful. I'm all open to new technologies and new tools to make " +
       "things easier. I'm very good at teamwork. Besides, I can think on my " +
-      "own when it's needed. Nothing exists that I can't learn. Also, I'm a huge" +
+      "own when it's needed. Nothing exists that I can't learn. Also, I'm a huge " +
   "Breaking Bad fan, which is the best TV Series of all time made by human-beings.",
   skills:
     '<span class="code">Spoken Languages:</span> English(Upper-Intermediate), Turkish(Native)<br><span class="code">Languages:</span> Java, HTML/CSS/JavaScript<br><span class="code">Technologies:</span> Git, SQL, Native Android Development, REST/SOAP<br><span class="code">Frameworks:</span> React Native, React.JS',

@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <title>Soner Çelik Personal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+    <section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3 is-flex">
+                    <div class="column-child sidebar shadow">
+                        <div class="sidebar-header has-text-centered">
+                            <img
+                                    src="img/profile.jpg"
+                                    alt="Avatar"
+                                    class="sidebar-image">
+                            <h2 class="header-name">Soner Çelik</h2>
+                            <h5>Junior Software Developer</h5>
+                            <div class="social-icons">
+                                <a href="https://t.me/somercelik"><i class="fab fa-telegram icon"></i></a>
+                                <a href="https://github.com/somercelik"><i class="fab fa-github icon"></i></a>
+                                <a href="https://linkedin.com/in/somercelik"><i class="fab fa-linkedin icon"></i></a>
+                                <a href="https://facebook.com/somercelik"><i class="fab fa-facebook icon"></i></a>
+                                <a href="https://twitter.com/somercelik"><i class="fab fa-twitter icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-flex">
+                    <div class="column-child terminal shadow">
+                        <div class="terminal-bar dark-mode">
+                            <div class="icon-btn close"></div>
+                            <div class="icon-btn min"></div>
+                            <div class="icon-btn max"></div>
+                            <div class="terminal-bar-text is-hidden-mobile dark-mode-text">root@soner: ~</div>
+                        </div>
+                        <div class="terminal-window primary-bg"
+                             onclick="document.getElementById('dummyKeyboard').focus();">
+                            <div class="terminal-output" id="terminalOutput">
+                                <div class="terminal-line">
+                  <span class="help-msg">Welcome to soner's portfolio - Type <span class="code">help</span>
+                    for a list of supported commands.</span>
+                                </div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="success">?</span> <span class="directory">~</span> <span class="user-input"
+                                                                                                      id="userInput"></span>
+                                <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    </footer>
+</section>
+</html>
+
